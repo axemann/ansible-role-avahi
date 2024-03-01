@@ -1,6 +1,6 @@
 # Overview
 
-Ansible Playbook for [avahi](http://avahi.org/) the zeroconf software.
+Ansible Playbook for [avahi](http://avahi.org/) the zeroconf software, originally created by [pwelch](https://github.com/pwelch/ansible-avahi).
 
 ## Role Variables
 
@@ -36,4 +36,4 @@ Requires [Vagrant](http://www.vagrantup.com/)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
-Source code availabe [here](https://github.com/pwelch/ansible-avahi)
+Original source code available [here](https://github.com/pwelch/ansible-avahi)
