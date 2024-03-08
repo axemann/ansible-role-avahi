@@ -6,12 +6,14 @@ galaxy_info:
   namespace: axemann
   description: Install and configure Avahi zeroconf service.
   license: "license (MIT)"
-  min_ansible_version: "1.7"
+  min_ansible_version: "2.0"
   platforms:
     - name: Ubuntu
-  # versions:
-  #   - precise
-  #   - trusty
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - all
   galaxy_tags:
     - networking
 dependencies: []
