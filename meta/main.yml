@@ -1,14 +1,17 @@
 ---
+
 galaxy_info:
-  author: pwelch
+  role_name: avahi
+  author: axemann
+  namespace: axemann
   description: Install and configure Avahi zeroconf service.
   license: "license (MIT)"
-  min_ansible_version: 1.7
+  min_ansible_version: "1.7"
   platforms:
-  - name: Ubuntu
-    versions:
-    - precise
-    - trusty
+    - name: Ubuntu
+  # versions:
+  #   - precise
+  #   - trusty
   galaxy_tags:
     - networking
 dependencies: []
